@@ -6,11 +6,12 @@ import android.app.DatePickerDialog.OnDateSetListener;
 import android.app.Dialog;
 import android.app.TimePickerDialog.OnTimeSetListener;
 import android.content.DialogInterface;
-import android.support.annotation.NonNull;
 import android.text.TextUtils;
 import android.util.Log;
 import android.widget.DatePicker;
 import android.widget.TimePicker;
+
+import androidx.annotation.NonNull;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaInterface;
